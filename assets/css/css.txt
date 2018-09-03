@@ -1,0 +1,588 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width:960px) {
+  /* DEBUT DU HEAD  */
+  header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    padding-top: 8vh;
+  }
+  .logoheader {
+    width: 3.8vw;
+    height: 8vh;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #006989;
+  }
+  nav {
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    background: #eaebed;
+    z-index: 2;
+    display: flex;
+  }
+  ul {
+    width: 100%;
+  }
+  nav li {
+    width: 14.286%;
+    height: 8vh;
+    list-style: none;
+    float: left;
+    text-align: center;
+    font-family: calibri;
+    cursor: pointer;
+    font-weight: lighter;
+    background: #006989;
+    border: 2px solid white;
+    border-right:1px solid white;
+  }
+  nav li:hover {
+    background: #01a7c2;
+  }
+  #homenav {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  #homenav:hover {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+   #contactnav {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  #contactnav:hover {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    line-height: 8vh;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    background: #eaebed;
+    padding-bottom:2vh;
+  }
+  /* FIN DU HEAD  */
+  /* --------------------------------------------------------------------- */
+  /* DEBUT D'INDEX */
+  .wrap1 {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    font-family: calibri;
+    padding: 1vw;
+    margin-bottom: 10vh;
+    border-radius: 25px;
+  }
+  .wrap1 h1 {
+    font-size: 5vw;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+  .wrap1 p {
+    text-align: center;
+    font-size: 1.3vw;
+    margin: auto;
+  }
+  .title {
+    text-align: center;
+    font-size: 7vh;
+    font-family: calibri;
+    margin: auto;
+    margin-bottom: 10vh;
+    font-weight: lighter;
+    width: 15vw;
+    border-bottom: 2px solid #01a7c2;
+  }
+  .wrap2 {
+    width: 70%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10vh;
+  }
+  .wrap2a {
+    width: auto;
+    height: auto;
+    background: #a3bac3;
+    margin: auto;
+    padding: 1vw;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 15px;
+  }
+  .wrap2a img {
+    width: 20vw;
+    height: 30vh;
+    margin-bottom: 2vh;
+  }
+  .wrap2a h3 {
+    width: 20vw;
+    text-align: center;
+    font-family: calibri;
+    font-size: 1.5vw;
+    color: white;
+  }
+  .wrap2a p {
+    width: 17vw;
+    font-size: 1vw;
+    font-family: calibri;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2vh;
+    color: white;
+  }
+  .wrap2a>a {
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+    background: #006989;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+  }
+  .wrap2a>a:hover {
+    background: #01a7c2;
+  }
+  .wrap2a>a:active {
+    position: relative;
+    top: 5px;
+  }
+  .wrap3 {
+    width: 70%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10vh;
+  }
+  .wrap3a {
+    width: 30vw;
+    height: auto;
+    background: #a3bac3;
+    ;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: lighter;
+    font-family: calibri;
+    line-height: 9vh;
+    padding-top: 1vw;
+    margin: auto;
+    box-shadow: 3px 3px 15px;
+    color: white;
+  }
+  .map1 {
+    width: 30vw;
+    height: 21.5vw;
+    margin: auto;
+  }
+  #titlewrap4 {
+    width: 9vw;
+    font-size: 3vh;
+    margin-bottom: 2vh;
+    border: none;
+  }
+  .wrap4 {
+    width: 50vw;
+    height: auto;
+    margin: auto;
+    margin-bottom: 2vh;
+  }
+  .wrap4 img {
+    width: 10vw;
+    height: 8vh;
+    margin-left: 3.3%;
+    border: 1px dotted;
+  }
+  /* FIN D'INDEX */
+  /* --------------------------------------------------- */
+  /* DEBUT PLOMBERIE CHAUFFAGE SANITAIRE */
+  .sandwich {
+    width: 52%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+  .sandwich h2 {
+    font-family: calibri;
+    font-size: 3vw;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 2vh;
+    padding: 2vh;
+  }
+  .sandwich p {
+    font-family: calibri;
+    font-size: 3vh;
+    margin-bottom: 2vh;
+    width: 104%;
+    height: auto;
+  }
+  .sandwich img {
+    width: 15vw;
+  }
+  .sandwich1 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+  }
+  #sandwich1aa {
+    margin-right: 5vw;
+  }
+  .sandwich1a {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .sandwich1a h3 {
+    width: auto;
+    height: auto;
+    font-family: calibri;
+    font-size: 4vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background: #a3bac3;
+  }
+  .sandwich1a img {
+    width: 30vw;
+    height: 50vh;
+  }
+  .sandwich1a p {
+    width: 26vw;
+    height: 65%;
+    margin: auto;
+    font-family: calibri;
+    font-size: 1.5vw;
+    padding: 2vw;
+    margin-bottom: 2vh;
+    background: #a3bac3;
+    position: relative;
+    bottom: 1%;
+  }
+  .titlepic {
+    width: 31.5vw;
+    height: auto;
+    padding: 1vw;
+    display: block;
+    margin: auto;
+    background: #006989;
+    color: white;
+    text-decoration: none;
+    font-family: calibri;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+  }
+  .titlepic:hover {
+    background: #01a7c2;
+  }
+  .titlepic:active {
+    position: relative;
+    top: 5px;
+  }
+  /* FIN PLOMBERIE CHAUFFAGE SANITAIRE */
+  /* ---------------------------------------------------------- */
+  /* DEBUT GALERIE */
+  .wrapper {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    font-family: calibri;
+    padding: 2vw;
+    margin-bottom: 4vh;
+    border-radius: 25px;
+    text-align: center;
+  }
+  .wrapper h2 {
+    width: 100%;
+    height: auto;
+    font-size: 3vw;
+    margin-bottom: 1vh;
+  }
+  .wrapper p {
+    width: 100%;
+    font-size: 1.2vw;
+    margin: auto;
+    padding: 2%;
+    border-radius: 25px;
+  }
+  .titles {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 6vh;
+    font-family: calibri;
+    margin: auto;
+    font-weight: lighter;
+    border-bottom: 1px solid #01a7c2;
+  }
+  div.wrapper1 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+    padding: 1vw;
+  }
+  div.prevu {
+    display: flex;
+    width: 18vw;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10vh;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -moz-transform: scale(1);
+    transition: all 500ms ease-in;
+    -ms-transition: all 500ms ease-in;
+    -webkit-transition: all 500ms ease-in;
+    -o-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+  }
+  div.prevu:hover {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    box-shadow: 0px 0px 150px black;
+    z-index: 2;
+  }
+  /* FIN GALERIE */
+  /* ---------------------------------------------------------- */
+  /* DEBUT DEVIS */
+  form {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+    background: #002935;
+  }
+  label {
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-top: 5vh;
+    margin-bottom: 1vh;
+    font-family: calibri;
+    font-size: 2vw;
+    font-weight: lighter;
+    color: white;
+  }
+  input, select, textarea {
+    width: 50%;
+    height: 8vh;
+    display: block;
+    margin: auto;
+    border: none;
+    font-family: calibri;
+    font-size: 1.5vw;
+    text-align: center;
+    background: #dfe6e9;
+  }
+  textarea {
+    width: 80vh;
+    height: 30vh;
+    margin-bottom: 5vh;
+  }
+  #devis {
+    width: auto;
+    font-size: 1.5vw;
+    background: #006989;
+    color: white;
+    cursor: pointer;
+    padding: 2vh;
+  }
+  #devis:hover {
+    background: #01a7c2;
+    ;
+  }
+  #devis:active {
+    position: relative;
+    top: 5px;
+  }
+  .asterix {
+    padding-left: 5px;
+    color: red;
+  }
+  /* FIN DEVIS */
+  /* ---------------------------------------------------------------- */
+  /* DEBUT CONTACT */
+  .flip {
+    max-width: 66vh;
+    perspective: 950px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2vh;
+  }
+  .flip:hover .page {
+    transform: rotateY(180deg);
+  }
+  .flip, .devant, .arriere {
+    width: 100%;
+    height: auto;
+  }
+  .page {
+    transition: .6s;
+    position: relative;
+    transform-style: preserve-3d;
+  }
+  .devant, .arriere {
+    backface-visibility: hidden;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+  }
+  .devant {
+    width: 30vw;
+    height: auto;
+    font-size: 3vh;
+    font-family: calibri;
+    line-height: 7vh;
+    font-weight: bold;
+    border-radius: 30px;
+    color: black;
+  }
+  .arriere {
+    width: 30vw;
+    height: 30vh;
+    position: absolute;
+    line-height: 25vw;
+    text-align: center;
+    transform: rotateY(180deg);
+    text-align: center;
+    animation: 2s toto 1s linear 1;
+  }
+  #fliptexte img {
+    width: 13vw;
+    height: auto;
+    border: 1px solid #002935;
+    border-radius: 250px;
+  }
+  @keyframes toto {
+    0% {
+      opacity: 0
+    }
+    ;
+    100% {
+      opacity: 1
+    }
+    ;
+  }
+  .devant {
+    z-index: 2;
+    transform: rotate(0deg);
+  }
+  .formap {
+    width: 62.7%;
+    height: auto;
+    display: flex;
+    margin: auto;
+  }
+  .map2 {
+    width: 30vw;
+    height: 93.8vh;
+  }
+  .formap form {
+    width: 30vw;
+    height: auto;
+    background: #002935;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    
+  }
+  .coordonnees {
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 5vh;
+    padding-top: 2vh;
+    font-family: arial;
+  }
+  .formap form input {
+    height: auto;
+    padding: 0px;
+    margin-bottom: 5vh;
+  }
+  .formap form textarea {
+    width: 25vw;
+    height: 20vh;
+    margin-bottom: 5vh;
+  }
+  .formap form label {
+    height: 5vh;
+    padding: 0px;
+    font-size: 3vh;
+    margin-bottom: 0px;
+    color: white;
+  }
+  .btn {
+    color: white;
+    background: #006989;
+  }
+  .btn:hover {
+    cursor: pointer;
+    background: #01a7c2;
+  }
+  .btn:active {
+    position: relative;
+    top: 5px;
+  }
+  /* FIN CONTACT */
+  /* ---------------------------------------- */
+  /* DEBUT FOOTER */
+  footer {
+    width: auto;
+    height: 8.5vh;
+    background: #002935;
+  }
+  footer img {
+    width: 4.1vw;
+    height: 8.5vh;
+    margin: auto;
+    display: flex;
+    border: 5px solid white;
+    border-radius: 50px;
+  }
+  /* FIN FOOTER */
+}
